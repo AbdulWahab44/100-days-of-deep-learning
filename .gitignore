@@ -11,4 +11,5 @@
 !.gitignore
 
 # Ignore Jupyter auto files
+.virtual_documents/
 .ipynb_checkpoints/
