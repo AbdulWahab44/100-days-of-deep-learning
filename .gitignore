@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# Allow folders
+!*/
+
+# Allow only these files
+!*.ipynb
+!*.csv
+!README.md
+!.gitignore
+
+# Ignore Jupyter auto files
+.ipynb_checkpoints/
