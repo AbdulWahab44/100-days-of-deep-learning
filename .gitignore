@@ -7,6 +7,7 @@
 # Allow only these files
 !*.ipynb
 !*.csv
+!*.png   👈 ADD THIS LINE
 !README.md
 !.gitignore
 
