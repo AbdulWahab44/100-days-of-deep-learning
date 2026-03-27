@@ -1,16 +1,18 @@
-# Ignore everything by default
+# Ignore everything
 *
 
 # Allow folders
 !*/
 
-# Allow only these files
+# Allow png files inside ANY folder (IMPORTANT)
+!**/*.png
+
+# Allow other files
 !*.ipynb
 !*.csv
-!*.png   👈 ADD THIS LINE
 !README.md
 !.gitignore
 
 # Ignore Jupyter auto files
-.virtual_documents/
 .ipynb_checkpoints/
+.virtual_documents/
