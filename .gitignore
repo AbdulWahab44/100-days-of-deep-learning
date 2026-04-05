@@ -7,6 +7,9 @@
 # Allow png files inside ANY folder (IMPORTANT)
 !**/*.png
 
+# Allow pdf files inside ANY folder
+!**/*.pdf
+
 # Allow other files
 !*.ipynb
 !*.csv
